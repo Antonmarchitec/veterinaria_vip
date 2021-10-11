@@ -1,0 +1,272 @@
+.contContSlader{
+    margin-top: 55px;
+    width: 100%;
+    //background: rgb(72, 255, 0);
+    position: relative;
+    overflow: hidden;
+    .contSlader{
+        width: 300%;  
+        display: flex;
+        flex-direction: row;
+        margin-left: -100%;
+        .cajas{
+            width: 100%;
+            height: 600px;
+            //background: violet;
+            .foto1{
+              width: 100%;
+              height: 600px;  
+              background-image: url(../source/BB3.jpg);
+              background-size: 100% 100%;
+              position: relative;
+              //background-attachment: fixed;
+                .titleFoto1{
+                  width: 40%;
+                  padding: 10px 20px;
+                  font-size: 70px;
+                  background: white;
+                  border-radius: 10px;
+                  border: 2px solid $color-verde;
+                  box-shadow: 0px 0px 3px $color-verde;
+                  line-height:60px;
+                  letter-spacing: -5px;
+                  position: absolute;
+                  top: 100px;
+                  left: 50px;
+                  //font-family:'Anton', sans-serif;
+                  color:  $color-verde;
+                  opacity: 0.9;
+                }
+                @media only screen and (max-width:1024px){
+                    .titleFoto1{
+                        font-size: 60px;
+                        line-height: 55px;
+                    }
+                }
+                @media only screen and (max-width:720px){
+                    .titleFoto1{
+                        font-size: 40px;
+                        line-height:40px;
+                        letter-spacing: -2px;
+                    }
+                }
+                @media only screen and (max-width:640px){
+                    .titleFoto1{
+                        width: 40%;
+                        font-size: 25px;
+                        line-height:28px;
+                        letter-spacing: -2px;
+                        //position: absolute;
+                        top: 500px;
+                        left:20px;
+                        text-align: center;
+                    }
+                }
+                @media only screen and (max-width:480px){
+                    .titleFoto1{
+                        width: 40%;
+                        font-size: 20px;
+                        line-height:23px;
+                       
+                    }
+                }
+                @media only screen and (max-width:423px){
+                    .titleFoto1{
+                        width: 50%;
+                        font-size: 20px;
+                        line-height:20px;
+                       
+                    }
+                }
+                .imagenLogo1{
+                    width: 100px;
+                    height: 100px;
+                    background-image: url(../source/logo.png);
+                    background-size: 100% 100%;
+                    position:absolute;
+                    right: 30px;
+                    bottom: 30px;
+                }
+                @media only screen and (max-width:423px){
+                    .imagenLogo1{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+              
+            }   
+            .foto2{
+                width: 100%;
+                height: 600px;  
+                background-image: url(../source/BB2.jpg);
+                background-size: 100% 100%;
+                position: relative;
+                //background-attachment: fixed;
+                .titleFoto2{
+                    width: 40%;
+                    font-size: 70px;
+                    padding: 10px 20px;
+                    background: white;
+                    border-radius: 10px;
+                    border: 2px solid $color-verde;
+                    box-shadow: 0px 0px 3px $color-verde;
+                    line-height:60px;
+                    letter-spacing: -5px;
+                    position: absolute;
+                    top: 100px;
+                    left: 50px;
+                    //font-family:'Anton', sans-serif;
+                    color:  $color-verde;
+                    opacity: 0.9;
+                  }
+                  @media only screen and (max-width:1024px){
+                    .titleFoto2{
+                        font-size: 60px;
+                        line-height: 55px;
+                    }
+                  }
+                  @media only screen and (max-width:720px){
+                    .titleFoto2{
+                        font-size: 40px;
+                        line-height:40px;
+                        letter-spacing: -2px;
+                    }
+                  }
+                  @media only screen and (max-width:640px){
+                    .titleFoto2{
+                        width: 40%;
+                        font-size: 25px;
+                        line-height:28px;
+                        letter-spacing: -2px;
+                        //position: absolute;
+                        top: 500px;
+                        left:20px;
+                        text-align: center;
+                    }
+                  }
+                  @media only screen and (max-width:480px){
+                    .titleFoto2{
+                        width: 40%;
+                        font-size: 20px;
+                        line-height:23px;
+                       
+                    }
+                  }
+                  .imagenLogo2{
+                    width: 100px;
+                    height: 100px;
+                    background-image: url(../source/logo.png);
+                    background-size: 100% 100%;
+                    position:absolute;
+                    right: 30px;
+                    bottom: 30px;
+                }
+                @media only screen and (max-width:423px){
+                    .imagenLogo2{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+              }   
+            .foto3{
+                width: 100%;
+                height: 600px;  
+                background-image: url(../source/BB1.jpg);
+                background-size: 100% 100%;
+                //background-attachment: fixed; 
+                .titleFoto3{
+                    width:35%;
+                    padding: 10px 20px;
+                    font-size: 70px;
+                    line-height:60px;
+                    letter-spacing: -5px;
+                    background: white;
+                    border-radius: 10px;
+                    border: 2px solid $color-verde;
+                    box-shadow: 0px 0px 3px $color-verde;
+                    position: relative;
+                    top: 100px;
+                    left: 50px;
+                    //font-family:'Anton', sans-serif;
+                    color:  $color-verde;
+                    opacity: 0.9;
+                  }
+                  @media only screen and (max-width:1024px){
+                    .titleFoto3{
+                        font-size: 60px;
+                        line-height: 55px;
+                    }
+                  }
+                  @media only screen and (max-width:720px){
+                    .titleFoto3{
+                        font-size: 40px;
+                        line-height:40px;
+                        letter-spacing: -2px;
+                    }
+                  }
+                  @media only screen and (max-width:640px){
+                    .titleFoto3{
+                        width: 40%;
+                        font-size: 25px;
+                        line-height:28px;
+                        letter-spacing: -2px;
+                       
+                        top: 500px;
+                        left:20px;
+                        text-align: center;   
+                    }
+                  }
+                  @media only screen and (max-width:480px){
+                    .titleFoto3{
+                        width: 40%;
+                        font-size: 20px;
+                        line-height:23px;
+                       
+                    }
+                }
+                  .imagenLogo3{
+                    width: 100px;
+                    height: 100px;
+                    background-image: url(../source/logo.png);
+                    background-size: 100% 100%;
+                    position:absolute;
+                    right: 30px;
+                    bottom: 30px; 
+                }
+                @media only screen and (max-width:423px){
+                    .imagenLogo3{
+                        width: 80px;
+                        height: 80px;
+                    }
+                }
+              }   
+        }
+    }
+   
+    .flechaIzquierda{
+       position: absolute;
+       top: 45%;
+       left: 20px;
+       .iconFlecha{
+           font-size: 50px;
+           color:rgba(255, 255, 255, 0.747);
+       }
+    }
+    .flechaDerecha{
+        position: absolute;
+        top: 45%;
+        right:20px;
+        .iconFlecha{
+            font-size: 50px;
+            color:rgba(255, 255, 255, 0.747);
+        }
+    }
+}
+
+
+
+
+
+
+
+

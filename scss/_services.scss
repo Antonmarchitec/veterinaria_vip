@@ -1,0 +1,88 @@
+.contSecciones2{
+    padding: 35px 0px;
+    width: 100%;
+    background:$color-verde;
+    .Subtitles{
+        font-size: 50px;
+        letter-spacing: -4px;
+        text-align: center;
+        color: white;
+    }
+    .contSection2{
+        margin-top: 50px;
+        width: 100%;
+        padding: 5px;
+        //background: rgb(207, 207, 207);
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: space-around;
+        align-items: center;
+        .cajaSection2{
+            margin: 5px 0px;
+            width: 270px;
+            height: 330px;
+            background: $color-negro;
+            padding: 20px;
+            border-radius: 10px;
+            box-shadow: 0px 10px 10px  $color-negro;
+            position: relative;
+            top: 0;
+            transition-property:top,transform;
+            transition-duration:0.3s;
+         
+            .cajaImagen{
+                width: 110px;
+                height: 110px;
+                background: rgb(255, 255, 255);
+                border-radius: 50%;
+                margin: auto;
+                display: flex;
+                justify-content: center;
+                align-items: center;
+                .iconAguja{
+                    border-radius: 50%;    
+                }
+            }
+            .cajaTexto{
+                //background: darkblue;
+                .cajaTitle{
+                    margin-top: 10px;
+                    text-align: center;
+                    color: $color-verde;
+                    letter-spacing: -2px;
+                }
+                .cajaParrafo{
+                    margin-top: 10px;
+                    text-align: center;
+                    color: white;
+                }
+                .verMas{
+                    color: white;
+                    text-decoration: none;
+                    position: absolute;
+                    bottom: 30px;
+                    right: 40px; 
+                }
+                .iconArrow{
+                    color: white;
+                }
+                .verMas:hover{
+                    color:$color-verde ;
+                }
+                
+                
+            }
+        }
+        .cajaSection2:hover{
+            top: -30px;
+            transform:translateY(-20px);
+        }
+    }
+}
+
+
+
+
+
+

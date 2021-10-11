@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Cabin', sans-serif;
+    //font-family: 'Style Script', cursive;
+}
+body{
+    background-image: url(../source/logo.png);
+    background-size: cover;
+    background-attachment: fixed;
+}
+html{
+    scroll-behavior:smooth;
+}
+.CONTENEDOR{
+    width: 100%;
+    max-width: 1200px;
+    //padding: 10px 0px;
+    //background: rgb(56, 6, 236);
+    margin: auto;
+    display: grid;
+    //gap: 5px;
+    overflow: hidden;
+    grid-template-columns:1fr  1fr  1fr;
+    grid-template-rows:repeat(7,auto);
+    grid-template-areas: "MENU           MENU           MENU"
+                         "SLADER         SLADER         SLADER"
+                         "SECTION1       SECTION1       SECTION1"
+                         "SECTION2       SECTION2       SECTION2"
+                         "FORM           FORM           FORM"
+                         "CAMPO_REDES    CAMPO_REDES    CAMPO_REDES"
+                         "FOOTER         FOOTER         FOOTER";
+    .CAMPO_REDES{
+        //padding: 5px;
+        //background: indianred;
+        grid-area:CAMPO_REDES ;
+    }
+    .MENU{
+        //padding: 5px;
+        //background: indianred;
+        grid-area: MENU;
+    }
+    .SLADER{
+        //padding: 5px;
+        //background: indianred;
+        grid-area: SLADER;
+    }
+    .SECTION1{   /*ABOUT AS*/
+        //padding: 5px;
+        //background: indianred;
+        grid-area: SECTION1;
+    }
+    .SECTION2{    /*MIS SERVICIOS*/
+        //padding: 5px;
+        //background: indianred;
+        grid-area: SECTION2;
+    }
+    .FORM{
+        //padding:5px ;
+        //background:indianred ;
+        grid-area: FORM;
+    }
+    .FOOTER{
+        //padding: 5px;
+        //background: indianred;
+        grid-area: FOOTER;
+    }
+}

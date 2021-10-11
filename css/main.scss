@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css2?family=Cabin:wght@400;700&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: "Cabin", sans-serif;
+}
+
+.CONTENEDOR {
+  width: 100%;
+  max-width: 1150px;
+  padding: 10px 0px;
+  background: #bebebe;
+  margin: auto;
+  display: grid;
+  gap: 5px;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: repeat(4, auto);
+  grid-template-areas: "CAMPO_REDES    CAMPO_REDES    CAMPO_REDES" "MENU           MENU           MENU" "SLADER         SLADER         SLADER" "SECTION1       SECTION1       SECTION1";
+}
+.CONTENEDOR .CAMPO_REDES {
+  background: indianred;
+  grid-area: CAMPO_REDES;
+}
+.CONTENEDOR .MENU {
+  background: indianred;
+  grid-area: MENU;
+}
+.CONTENEDOR .SLADER {
+  background: indianred;
+  grid-area: SLADER;
+}
+.CONTENEDOR .SECTION1 {
+  background: indianred;
+  grid-area: SECTION1;
+}
+
+.contBaseRedes {
+  width: 100%;
+  padding: 5px;
+  background: #10aeb9;
+}
+.contBaseRedes .contRedes {
+  margin-top: 5px;
+  width: 100%;
+  padding: 5px;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+.contBaseRedes .contRedes .contIcons .Icons {
+  font-size: 15px;
+  color: #202020;
+}
+.contBaseRedes .contRedes .contIcons .Icons .textIcons {
+  color: white;
+}
+
+.contMenu {
+  width: 100%;
+  padding: 10px 0px;
+  background: #202020;
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+.contMenu .logo {
+  padding: 2px;
+  margin-left: 15px;
+}
+.contMenu .logo .titleLogo {
+  color: white;
+  font-size: 40px;
+}
+.contMenu .logo .titleLogo .textVip {
+  color: #10aeb9;
+}
+.contMenu .menuEnlaces {
+  width: 40%;
+  padding: 5px;
+}
+.contMenu .menuEnlaces .ul {
+  padding: 2px;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+.contMenu .menuEnlaces .ul .li {
+  list-style: none;
+}
+.contMenu .menuEnlaces .ul .li .link {
+  color: #10aeb9;
+  text-decoration: none;
+  font-size: 18px;
+}
+.contMenu .menuEnlaces .ul .li .active {
+  color: white;
+  text-decoration: none;
+  font-size: 18px;
+  box-shadow: 0px 2px 0px white;
+}
+.contMenu .menuEnlaces .ul .li .link:hover {
+  color: white;
+  box-shadow: 0px 2px 0px white;
+}
+.contMenu .btnResponsive {
+  padding: 2px;
+  margin-right: 15px;
+  cursor: pointer;
+  display: none;
+}
+.contMenu .btnResponsive .IconBar {
+  font-size: 35px;
+  color: #10aeb9;
+}
+
+.contSlader {
+  width: 100%;
+  background: violet;
+  display: none;
+}
+.contSlader .cajas {
+  width: 100%;
+  background: #a0a098;
+  border: 1px solid black;
+}
+
+.contSection1 {
+  width: 100%;
+  padding: 10px;
+  background: #46a828;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+.contSection1 .contDescription {
+  width: 50%;
+  padding: 5px;
+  background: #00ff40;
+}
+.contSection1 .contDescription .quienesSomos {
+  font-size: 40px;
+}
+.contSection1 .contImagen {
+  width: 500px;
+  height: 500px;
+  background: yellow;
+}
+.contSection1 .contImagen .imagen {
+  width: 500px;
+  height: 500px;
+  background-image: url(../source/img1.jpg);
+  background-size: 100% 100%;
+}
+
+/*# sourceMappingURL=main.scss.map */

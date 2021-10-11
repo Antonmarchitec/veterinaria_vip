@@ -1,0 +1,339 @@
+.contMenu{
+    width: 100%;
+    padding: 11px 0px;
+    background:  $color-negro;
+    box-shadow: 0px 2px 2px $color-negro;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    z-index: 1000;
+    opacity: 1;
+    transition: 1s all;
+    .logo{
+        width: 280px;
+        padding: 2px;
+        margin-left: 15px;
+        //background: lightgray;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+        align-items: center;
+        
+        .titleLogo{
+            color: white;
+            font-size: 40px;
+            letter-spacing:-3px;
+            .textVip{
+                color: $color-verde;
+            }
+        }
+    }
+    .contHuellas{
+        width: 220px;
+        height:50px;
+        //background: violet;
+        position: relative;
+        .huellas1{
+            width: 30px;
+            height:30px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            top: 0;
+            left: 20px;
+            opacity: 0.3;
+        }    
+        .huellas2{
+            width: 31px;
+            height:31px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            left:70px ;
+            opacity: 0.5;
+        }
+        .huellas3{
+            width: 32px;
+            height:32px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            top: 0;
+            left: 120px;
+            opacity: 0.7;
+
+        }
+        .huellas4{
+            width: 33px;
+            height:33px;
+            background-image: url(../source/huella.png);
+            background-size: 100% 100%;
+            position: absolute;
+            bottom: 0;
+            left:170px;
+            opacity: 1;
+        }
+    }
+    .menuEnlaces{
+        width:400px;
+        padding:2px 0px;
+        //background: rgb(121, 22, 22);
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction:row;
+        justify-content: space-around;
+        align-items:center;
+        .l_inicio{
+            width: 90px;
+            //background: chartreuse;
+            text-align: center;
+            padding: 3px;
+            .iconFigure{
+                font-size: 23px;
+                color: $color-verde;
+            }
+            .iconFigure:hover{
+                color: white;
+               
+            }
+            .l_texto{
+                font-size: 14px;
+                color: $color-verde;
+            }
+        }
+        .l_inicio:hover{
+            cursor: pointer;
+        }
+        .btnCMenu{
+            display: none;
+        }
+        .correoTexto{
+            color: white;
+            font-size: 15px;
+        }
+    }
+    .contBtnResponsive{
+        background: transparent;
+        display:none;
+    }
+}
+.contMenu_JS{
+    opacity: 0.8;
+    padding: 5px 0px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/********************************************
+**************
+**************
+********************************************/
+@media only screen and (max-width:720px){
+    .contMenu{
+        width: 100%;
+        padding: 11px 0px;
+        background:  $color-negro;
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: center;
+        position: fixed;
+        top: 0;
+        left: 0;
+        right: 0;
+        z-index: 1000;
+        opacity: 1;
+        transition: 1s all;
+        .logo{
+            width: 280px;
+            padding: 2px;
+            margin-left: 15px;
+            //background: lightgray;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-items: center;
+            
+            .titleLogo{
+                color: white;
+                font-size: 40px;
+                letter-spacing:-3px;
+                .textVip{
+                    color: $color-verde;
+                }
+            }
+        }
+        .contHuellas{
+            width:  220px;
+            height:50px;
+            //background: violet;
+            position: relative;
+            .huellas1{
+                width: 30px;
+                height:30px;
+                background-image: url(../source/huella.png);
+                background-size: 100% 100%;
+                position: absolute;
+                top: 0;
+                left: 20px;
+                opacity: 0.3;
+            }    
+            .huellas2{
+                width: 31px;
+                height:31px;
+                background-image: url(../source/huella.png);
+                background-size: 100% 100%;
+                position: absolute;
+                bottom: 0;
+                left:70px ;
+                opacity: 0.5;
+            }
+            .huellas3{
+                width: 32px;
+                height:32px;
+                background-image: url(../source/huella.png);
+                background-size: 100% 100%;
+                position: absolute;
+                top: 0;
+                left: 120px;
+                opacity: 0.7;
+    
+            }
+            .huellas4{
+                width: 33px;
+                height:33px;
+                background-image: url(../source/huella.png);
+                background-size: 100% 100%;
+                position: absolute;
+                bottom: 0;
+                left:170px;
+                opacity: 1;
+            }
+        }
+        @media only screen and (max-width:480px){
+            .contHuellas{
+                display: none;
+            }
+        }
+        .menuEnlaces{
+            width:230px;
+            height: 89vh;
+            padding:2px 20px;
+            background:$color-negroTransparente;
+            display: flex;
+            flex-wrap: wrap;
+            flex-direction:column;
+            justify-content: space-around;
+            align-items:flex-start;
+            position: absolute;
+            top:80px;
+            left: -100%;
+            
+            .l_inicio{
+                width:100%;
+                //background: chartreuse;
+                text-align: center;
+                padding: 3px;
+                display: flex;
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: center;
+                .iconFigure{
+                    font-size: 40px;
+                    color: $color-verde;
+                    //background: gold;
+                }
+                .iconFigure:hover{
+                    color: $color-verde;
+                    
+                }
+                .l_texto{
+                    font-size: 14px;
+                    color: $color-verde;
+                    margin-left: 10px;
+                }
+                .l_texto:hover{
+                    color: white;
+                }
+            }
+            .l_inicio:hover{
+                cursor: pointer;
+            }
+            .btnCMenu{
+                width: 150px;
+                background: $color-verde;
+                color: white;
+                padding:5px 20px;
+                border-radius: 5px;
+                border: none;
+                position: relative;
+                left:calc(50% - 60px);
+                display: block;
+            }
+            .btnCMenu:hover{
+                background: white;
+                color: $color-negro;
+                cursor: pointer;
+            }
+            .correoTexto{
+                color: white;
+                font-size: 16px;
+                position: relative;
+                top: -10px;
+                left:calc(50% - 65px);
+            }
+        }
+        .menuenlaces_JS{
+           left: 0;
+        }
+        .contBtnResponsive{
+            background: transparent;
+            display:block;
+        }
+    }
+    .desaparezca{
+        opacity: 0.8;
+        padding: 5px 0px;
+    }
+    
+    
+        
+}
+
+
+
+
