@@ -87,6 +87,106 @@ SISTEMA DE ACTUALIZACION DE VERSIONES GIT
   1. git push
   2. git commit -am "mensaje"     (reemplaza al git add . // git commit -m "comentario")
 
-  ENLACE DEL VIDEO AYUDA:
+  # ENLACE DEL VIDEO AYUDA:
   https://youtu.be/iT4UOkyI09k
   https://www.youtube.com/watch?v=rApDq6twjGg
+  https://www.youtube.com/watch?v=aUeAp5WG6Rg  (ENVIAR FORMULARIO A GMAIL)
+
+
+
+  # EJEMPLOS DE PORTAFOLIOS
+  https://es.shopify.com/blog/21-portafolios-de-diseno-web-memorables-para-inspirar-tu-propio-sitio-web
+
+
+  # TIPS PARA LOS PORTAFOLIOS 
+  https://www.youtube.com/watch?v=_YwKSdtWr0Q
+  Sitios Web mencionados:
+* https://brittanychiang.com/
+* https://kuon.space/
+* https://moonfarmer.com/
+* https://jacekjeznach.com/
+* http://www.jennyjohannesson.com/
+* https://animalmade.com/
+* https://activetheory.net/home
+* https://www.seanhalpin.design/
+* https://resn.co.nz/#!/about
+* http://riccardozanutta.com/
+* https://dineshbalaji.in/
+* http://y78.fr/2/
+* https://bruno-simon.com/
+* http://www.rleonardi.com/interactive-...
+* https://chandujs.dev/
+* https://kaisermann.me/
+* https://titusklein.com/
+
+# OBJETIVOS
+  1. BUSCAR COMO PONER MUSICA 
+  2. CREAR HISTORIA
+  3. COLOCAR MAPA PERSONALIZADO EN EL CONTACTO
+  4. CARGAR LA PAGINA CON CONTADORES PERSONALIZADOS
+  5. 980px width max
+
+
+
+
+
+
+
+# COMANDOS SWITCH ALERT
+  //alert("Rellenar todos los campos!");
+        Swal.fire({
+            html:"<h class='texto'>Rellenar todos los campos por favor!</h3>",
+            //title:"Rellenar todos los campos!",
+            //text:'Selecciona tu pais',
+            icon:"error",
+            confirmButtonText: "Aceptar",
+            backdrop: false,  
+            timer: 5000,
+        	timerProgressBar: true,
+            padding: "10px",
+            //footer: "<span class=''>Esta es informacion importante</span>",
+	        //width: "50%", 
+	        //background:"#851641",
+	        //grow: "row"             //"column" "fullscreen"  
+	        //toast: true,  //ventana mas pequeña
+	        //position: "bottom-end"  //center   top    top-end   top-start
+
+	        //allowOutsideClick: true,
+        	//allowEscapeKey: false,
+         	//allowEnterKey: false,
+            //stopKeydownPropagation: false,    //para evitar la propagacion en la ventana
+
+            // input:"select"  //text
+            // inputPlaceholder:
+            // inputValue:
+            // inputOptions:
+            
+            customClass:{
+                 	popup: "class_popup",
+                 	icon:"class_icon",
+                    confirmButton:"class_buttonConfirm",
+                  	cancelButton:"class_buttonCancel"
+            },
+            
+            //PERSONALIZAR EL BOTON DE CONFIRMAR 
+               showConfirmButton:true,   //false desaparece el boton
+               confirmButtonColor:"#054256",
+               confirmButtonAriaLabel:"confirmar",
+            
+            //PERSONALIZAR EL BOTON DE CANCELAR 
+               showCancelButton: false,  //false desaparece el boton
+               cancelButtonText: "cancelar",
+               cancelButtonColor:"#fff54",
+               cancelButtonAriaLabel:"dfdfa",
+
+            //PERSONALIZAR Y DARLE ESTILOS A LOS BOTONES 
+               buttonsStyling: false,     //true para trabajar con stilos de switchAlert
+               showCloseButton: true,     //coloca el la x para cerrar
+               closeButtonAriaLabel:"Cerrar alerta"
+
+
+            // imageUrl:
+            // imageWidth:
+            // imageHeight:
+            // imageAlt:     
+         });  
