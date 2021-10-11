@@ -29,7 +29,7 @@
             position: relative;
             top: 0;
             transition-property:top,transform;
-            transition-duration:0.3s;
+            transition-duration:0.2s;
          
             .cajaImagen{
                 width: 110px;
@@ -51,32 +51,31 @@
                     text-align: center;
                     color: $color-verde;
                     letter-spacing: -2px;
+                    line-height: 22px;
+                    font-size: 25px;
                 }
                 .cajaParrafo{
                     margin-top: 10px;
-                    text-align: center;
                     color: white;
-                }
-                .verMas{
-                    color: white;
-                    text-decoration: none;
-                    position: absolute;
-                    bottom: 30px;
-                    right: 40px; 
-                }
-                .iconArrow{
-                    color: white;
-                }
-                .verMas:hover{
-                    color:$color-verde ;
-                }
-                
-                
+                    //background: red;
+                    .iconVacunas{
+                        color: $color-verde;
+                        font-size: 20px;
+                    }
+                    .iconEnviar{
+                        color:white;
+                        font-size: 12px;
+                    }
+                    .wts{
+                        text-decoration: none;
+                        color: $color-verde;
+                    }
+                }   
             }
         }
         .cajaSection2:hover{
             top: -30px;
-            transform:translateY(-20px);
+            transform:translateY(-5px);
         }
     }
 }
