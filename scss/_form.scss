@@ -444,3 +444,29 @@
         }
     }
 }
+
+
+
+
+
+////**********************************/////
+//CLASES SWITCH ALERT
+//****************************************////
+.class_popup{
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px black;
+}
+.class_icon{
+   
+}
+.class_buttonConfirm{
+    background:$color-negro;
+    padding: 5px 20px;
+    border: none;
+    border-radius: 5px;
+    color: $color-verde;
+    cursor: pointer;
+}
+.footer_Alert{
+    font-size: 15px;
+}
