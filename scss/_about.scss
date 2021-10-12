@@ -28,7 +28,7 @@
             margin-top: 10px;
             border-radius: 5px;
             border:none ;
-            padding: 8px 20px;
+            padding: 10px 15px;
             background: $color-negro;
             color: white;
             .iconWat{
@@ -37,6 +37,7 @@
         }
         .btnContacto:hover{
             cursor: pointer;
+            background: $color-negroTransparente;
             box-shadow: 0px 2px 0px $color-plomizo;
         }
     }

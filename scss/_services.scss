@@ -19,7 +19,7 @@
         justify-content: space-around;
         align-items: center;
         .cajaSection2{
-            margin: 5px 0px;
+            margin: 10px 0px;
             width: 270px;
             height: 330px;
             background: $color-negro;
@@ -74,8 +74,12 @@
             }
         }
         .cajaSection2:hover{
-            top: -30px;
-            transform:translateY(-5px);
+            transform:translateY(-10px);
+        }
+        @media only screen and (max-width:640px){
+            .cajaSection2:hover{
+                transform:translateY(0px);
+            }
         }
     }
 }
