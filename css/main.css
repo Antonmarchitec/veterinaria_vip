@@ -904,6 +904,36 @@ html {
     transform: translateY(0px);
   }
 }
+@media only screen and (max-width: 480px) {
+  .contSecciones2 .contSection2 {
+    width: 100%;
+    margin-top: 20px;
+    padding: 0;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    align-items: center;
+  }
+  .contSecciones2 .contSection2 .cajaSection2 {
+    width: 230px;
+  }
+}
+@media only screen and (max-width: 423px) {
+  .contSecciones2 .contSection2 {
+    width: 100%;
+    margin-top: 20px;
+    padding: 5px;
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+  .contSecciones2 .contSection2 .cajaSection2 {
+    width: 90%;
+  }
+}
 
 .contForm {
   width: 100%;
@@ -945,6 +975,8 @@ html {
   text-align: center;
   color: #f0f0f0;
   font-size: 30px;
+  letter-spacing: -2px;
+  line-height: 23px;
 }
 .contForm .contContFormImage .Formulario .contLabelText {
   margin: 5px;
