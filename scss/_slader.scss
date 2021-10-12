@@ -17,7 +17,7 @@
               width: 100%;
               height: 600px;  
               background-image: url(../source/BB3.jpg);
-              background-size: 100% 100%;
+              background-size: 100% 600px;
               position: relative;
               //background-attachment: fixed;
                 .titleFoto1{
@@ -99,7 +99,7 @@
                 width: 100%;
                 height: 600px;  
                 background-image: url(../source/BB2.jpg);
-                background-size: 100% 100%;
+                background-size: 100% 600px;
                 position: relative;
                 //background-attachment: fixed;
                 .titleFoto2{
@@ -172,7 +172,7 @@
                 width: 100%;
                 height: 600px;  
                 background-image: url(../source/BB1.jpg);
-                background-size: 100% 100%;
+                background-size: 100% 600px;
                 //background-attachment: fixed; 
                 .titleFoto3{
                     width:35%;
@@ -240,6 +240,28 @@
                     }
                 }
               }   
+        }
+        @media only screen and (max-width:640px){
+            .cajas{
+                width: 100%;
+                height: 480px;
+                .foto1{
+                   height: 480px;
+                   background-image: url(../source/BB3.jpg);
+                   background-size: 100% 480px;
+                }
+                .foto2{
+                    height: 480px;
+                    background-image: url(../source/BB2.jpg);
+                    background-size: 100% 480px;
+                }
+                .foto3{
+                    background-image: url(../source/BB1.jpg);
+                    background-size: 100% 480px;
+                    height: 480px;
+                }
+            }
+
         }
     }
    
