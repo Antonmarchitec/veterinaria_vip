@@ -36,5 +36,5 @@ $asunto = 'Tienes una nueva consulta!';
 
 mail($para, $asunto, utf8_decode($mensaje), $header);
 
-header("Location:index.html");   
+header("Location:enviado.html");   
 ?>

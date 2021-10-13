@@ -227,11 +227,6 @@ html {
   display: none;
 }
 
-.contMenu_JS {
-  opacity: 0.8;
-  padding: 5px 0px;
-}
-
 /********************************************
 **************
 **************
@@ -408,12 +403,6 @@ html {
   .contMenu .contBtnResponsive {
     background: transparent;
     display: block;
-  }
-}
-@media only screen and (max-width: 720px) {
-  .desaparezca {
-    opacity: 0.8;
-    padding: 5px 0px;
   }
 }
 .contContSlader {
@@ -1621,6 +1610,55 @@ html {
 
   .subir {
     opacity: 1;
+  }
+}
+.container {
+  width: 100%;
+  height: 100vh;
+  background: #10aeb9;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.container .contCuadro {
+  width: 400px;
+  padding: 10px 0px;
+  border: 3px solid #202020;
+  box-shadow: 0px 0px 10px #202020;
+  border-radius: 10px;
+  background: #10aeb9;
+  text-align: center;
+}
+.container .contCuadro .imagen {
+  width: 120px;
+  height: 120px;
+  background-image: url(../source/dog\ enviado.png);
+  background-size: 100% 100%;
+  margin: auto;
+}
+.container .contCuadro .contParrafo {
+  width: 300px;
+  padding: 20px 0px;
+  text-align: center;
+  margin: auto;
+}
+.container .contCuadro .contParrafo .parrafo {
+  text-align: center;
+  font-size: 25px;
+  letter-spacing: -1px;
+  line-height: 25px;
+}
+.container .contCuadro .link {
+  text-decoration: none;
+  text-align: center;
+  color: white;
+}
+.container .contCuadro .iconFlecha {
+  color: white;
+}
+@media only screen and (max-width: 423px) {
+  .container .contCuadro {
+    width: 90%;
   }
 }
 
