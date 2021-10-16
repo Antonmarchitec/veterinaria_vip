@@ -4,11 +4,22 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/main.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css" integrity="sha384-DyZ88mC6Up2uqS4h/KRgHuoeGwBcD4Ng9SiP4dIRy0EXTlnuz47vAwmeGwVChigm" crossorigin="anonymous">
     <title>Datos de formulario enviados</title>
 </head>
 <body>
-    <h1>ENVIADOS</h1>
+    <div class="container">
+        <div class="contCuadro">
+            <div class="imagen">
+                <!--imagen-->
+            </div>
+            <div class="contParrafo">
+                <h2 class="parrafo">¡Tu mensaje a sido enviado<br> con éxito!</h2>
+            </div>
+            <a href="index.html" class="link"> Volver</a> <i class="iconFlecha fas fa-arrow-right"></i> 
+        </div>           
+    </div>
 </body>
 </html>
 

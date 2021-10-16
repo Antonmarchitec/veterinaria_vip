@@ -18,7 +18,7 @@ html {
 
 .CONTENEDOR {
   width: 100%;
-  max-width: 1200px;
+  max-width: 1250px;
   margin: auto;
   display: grid;
   overflow: hidden;
@@ -463,7 +463,7 @@ html {
     font-size: 25px;
     line-height: 28px;
     letter-spacing: -2px;
-    top: 500px;
+    top: 50px;
     left: 20px;
     text-align: center;
   }
@@ -539,7 +539,7 @@ html {
     font-size: 25px;
     line-height: 28px;
     letter-spacing: -2px;
-    top: 500px;
+    top: 50px;
     left: 20px;
     text-align: center;
   }
@@ -607,7 +607,7 @@ html {
     font-size: 25px;
     line-height: 28px;
     letter-spacing: -2px;
-    top: 500px;
+    top: 50px;
     left: 20px;
     text-align: center;
   }
@@ -650,9 +650,9 @@ html {
     background-size: 100% 480px;
   }
   .contContSlader .contSlader .cajas .foto3 {
+    height: 480px;
     background-image: url(../source/BB1.jpg);
     background-size: 100% 480px;
-    height: 480px;
   }
 }
 .contContSlader .flechaIzquierda {

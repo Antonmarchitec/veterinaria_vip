@@ -57,7 +57,7 @@
                         line-height:28px;
                         letter-spacing: -2px;
                         //position: absolute;
-                        top: 500px;
+                        top: 50px;
                         left:20px;
                         text-align: center;
                     }
@@ -139,7 +139,7 @@
                         line-height:28px;
                         letter-spacing: -2px;
                         //position: absolute;
-                        top: 500px;
+                        top:50px;
                         left:20px;
                         text-align: center;
                     }
@@ -210,8 +210,7 @@
                         font-size: 25px;
                         line-height:28px;
                         letter-spacing: -2px;
-                       
-                        top: 500px;
+                        top: 50px;
                         left:20px;
                         text-align: center;   
                     }
@@ -256,9 +255,10 @@
                     background-size: 100% 480px;
                 }
                 .foto3{
+                    height: 480px;
                     background-image: url(../source/BB1.jpg);
                     background-size: 100% 480px;
-                    height: 480px;
+                   
                 }
             }
 
