@@ -28,8 +28,8 @@
             }
         }
         .Formulario{
-            width: 450px;
-            padding: 40px 30px; 
+            width: 400px;
+            padding: 50px 30px; 
             background: rgb(54, 54, 54);
             border-radius: 10px;
             box-shadow: 0px 0px 10px black;
@@ -70,6 +70,12 @@
                     min-height: 100px;
                    
                 }
+                @media only screen and (max-width:423px){
+                    textarea{
+                        min-width: 100%;
+                        max-width: 100%;
+                    }
+                }
             }
             .contEnviar{
                 //background: yellowgreen;
@@ -93,6 +99,18 @@
                 }
             }
         }
+        @media only screen and (max-width:720px){
+            .Formulario{
+                width: 70%;
+            }
+
+        }
+        @media only screen and (max-width:480px){
+            .Formulario{
+                width: 90%;
+            }
+
+        }
        
     }
 }
@@ -106,347 +124,6 @@
 *******************************
 *******************************
 ****************************************************************************/
-@media only screen and (max-width:720px){
-    .contForm{
-        width: 100%;
-        padding: 20px 10px;
-        //background: rgba(255, 255, 255, 0.925);
-        background-image: url(../source/PATITAS.png);
-        background-size: cover;
-        .title{
-            text-align: center;
-            color: rgb(44, 44, 44);
-            font-size: 35px;
-        }
-        .contContFormImage{
-            width: 100%;
-            //background: yellowgreen;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            .contFormImage{
-                width: 500px;
-                height: 400px;
-                background-image: url(../source/dog.png);
-                background-size: 100% 100%; 
-                animation: perroAnimado 6s infinite;
-                @keyframes perroAnimado {
-                    0%{
-                      transform: scale(1,1);
-                    }
-                    50%{
-                      transform: scale(1.05,1.05);
-                    }
-                }
-            }
-            .Formulario{
-                margin-right:0px;
-                width: 100%;
-                padding: 10px 30px; 
-                background: rgb(54, 54, 54);
-                border-radius: 10px;
-                box-shadow: 0px 0px 10px black;
-                .contLabelText{
-                    margin:5px;
-                    padding: 5px 0px;
-                    //background: violet;
-                  
-                    label{
-                        color: rgb(255, 255, 255);
-                        font-size: 18px;
-                    }
-                    input, textarea[type=text]{
-                        margin-top: 5px;
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        padding: 5px;
-                        border-radius: 6px;   
-                    }
-                    .input, textarea[type=text]:hover{
-                        border: 2px solid rgb(172, 69, 28);
-                    }
-                    textarea{
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        border-radius: 6px;
-                        min-width: 50%; 
-                        max-width: 100%;
-                        min-height: 100px;
-                        max-height: 100px;
-                    }
-                }
-               
-            }
-           
-        }
-    }
-}
-
-
-
-
-
-
-/***************************************************************************
-*******************************
-*******************************
-****************************************************************************/
-@media only screen and (max-width:480px){
-    .contForm{
-        width: 100%;
-        padding: 20px 10px;
-        //background: rgba(255, 255, 255, 0.925);
-        background-image: url(../source/PATITAS.png);
-        background-size: cover;
-        .title{
-            text-align: center;
-            color: rgb(44, 44, 44);
-            font-size: 35px;
-        }
-        .contContFormImage{
-            width: 100%;
-            //background: yellowgreen;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            .contFormImage{
-                width: 500px;
-                height: 400px;
-                background-image: url(../source/dog.png);
-                background-size: 100% 100%; 
-                animation: perroAnimado 6s infinite;
-                @keyframes perroAnimado {
-                    0%{
-                      transform: scale(1,1);
-                    }
-                    50%{
-                      transform: scale(1.05,1.05);
-                    }
-                }
-            }
-            .Formulario{
-                margin-right:0px;
-                width: 100%;
-                padding: 10px 30px; 
-                background: rgb(54, 54, 54);
-                border-radius: 10px;
-                box-shadow: 0px 0px 10px black;
-                .contLabelText{
-                    margin:5px;
-                    padding: 5px 0px;
-                    //background: violet;
-                  
-                    label{
-                        color: rgb(255, 255, 255);
-                        font-size: 14px;
-                    }
-                    input, textarea[type=text]{
-                        margin-top: 5px;
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        padding: 5px;
-                        border-radius: 6px;   
-                    }
-                    .input, textarea[type=text]:hover{
-                        border: 2px solid rgb(172, 69, 28);
-                    }
-                    textarea{
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        border-radius: 6px;
-                        min-width: 50%; 
-                        max-width: 100%;
-                        min-height: 100px;
-                        max-height: 100px;
-                    }
-                }
-               
-            }
-           
-        }
-    }
-}
-
-
-
-
-
-
-/***************************************************************************
-*******************************
-*******************************
-****************************************************************************/
-@media only screen and (max-width:423px){
-    .contForm{
-        width: 100%;
-        padding: 20px 10px;
-        //background: rgba(255, 255, 255, 0.925);
-        background-image: url(../source/PATITAS.png);
-        background-size: cover;
-        .title{
-            text-align: center;
-            color: rgb(44, 44, 44);
-            font-size: 28px;
-        }
-        .contContFormImage{
-            width: 100%;
-            //background: yellowgreen;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            .contFormImage{
-                width: 500px;
-                height: 400px;
-                background-image: url(../source/dog.png);
-                background-size: 100% 100%; 
-                animation: perroAnimado 6s infinite;
-                @keyframes perroAnimado {
-                    0%{
-                      transform: scale(1,1);
-                    }
-                    50%{
-                      transform: scale(1.05,1.05);
-                    }
-                }
-            }
-            .Formulario{
-                margin-right:0px;
-                width: 100%;
-                padding: 10px 30px; 
-                background: rgb(54, 54, 54);
-                border-radius: 10px;
-                box-shadow: 0px 0px 10px black;
-                .contLabelText{
-                    margin:5px;
-                    padding: 5px 0px;
-                    //background: violet;
-                  
-                    label{
-                        color: rgb(255, 255, 255);
-                        font-size: 14px;
-                    }
-                    input, textarea[type=text]{
-                        margin-top: 5px;
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        padding: 5px;
-                        border-radius: 6px;   
-                    }
-                    .input, textarea[type=text]:hover{
-                        border: 2px solid rgb(172, 69, 28);
-                    }
-                    textarea{
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        border-radius: 6px;
-                        min-width: 50%; 
-                        max-width: 100%;
-                        min-height: 100px;
-                        max-height: 100px;
-                    }
-                }
-               
-            }
-           
-        }
-    }
-}
-
-
-
-
-
-
-
-/***************************************************************************
-*******************************
-*******************************
-****************************************************************************/
-@media only screen and (max-width:330px){
-    .contForm{
-        width: 100%;
-        padding: 20px 10px;
-        //background: rgba(255, 255, 255, 0.925);
-        background-image: url(../source/PATITAS.png);
-        background-size: cover;
-        .title{
-            text-align: center;
-            color: rgb(44, 44, 44);
-            font-size: 26px;
-        }
-        .contContFormImage{
-            width: 100%;
-            //background: yellowgreen;
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            justify-content: space-around;
-            align-items: center;
-            .contFormImage{
-                width: 500px;
-                height: 400px;
-                background-image: url(../source/dog.png);
-                background-size: 100% 100%; 
-                animation: perroAnimado 6s infinite;
-                @keyframes perroAnimado {
-                    0%{
-                      transform: scale(1,1);
-                    }
-                    50%{
-                      transform: scale(1.05,1.05);
-                    }
-                }
-            }
-            .Formulario{
-                margin-right:0px;
-                width: 100%;
-                padding: 10px 30px; 
-                background: rgb(54, 54, 54);
-                border-radius: 10px;
-                box-shadow: 0px 0px 10px black;
-                .contLabelText{
-                    margin:5px;
-                    padding: 5px 0px;
-                    //background: violet;
-                  
-                    label{
-                        color: rgb(255, 255, 255);
-                        font-size: 14px;
-                    }
-                    input, textarea[type=text]{
-                        margin-top: 5px;
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        padding: 5px;
-                        border-radius: 6px;   
-                    }
-                    .input, textarea[type=text]:hover{
-                        border: 2px solid rgb(172, 69, 28);
-                    }
-                    textarea{
-                        width: 100%;
-                        border: 2px solid rgb(61, 61, 61);
-                        border-radius: 6px;
-                        min-width: 50%; 
-                        max-width: 100%;
-                        min-height: 100px;
-                        max-height: 100px;
-                    }
-                }
-              
-            }
-           
-        }
-    }
-}
-
-
 
 
 
